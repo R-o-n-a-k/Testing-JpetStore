@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="stepDefination.Tc2_InvalidSearchProduct">
+        <methods>
+          <include name="he_enters_name_in_search_bar"/>
+        </methods>
+      </class> <!-- stepDefination.Tc2_InvalidSearchProduct -->
+      <class name="stepDefination.Tc3_ValidateProduct">
+        <methods>
+          <include name="user_will_see_the_content_of_fish"/>
+          <include name="he_clicks_fish_on_homepage"/>
+        </methods>
+      </class> <!-- stepDefination.Tc3_ValidateProduct -->
+      <class name="stepDefination.Tc1_ValidSearchProduct">
+        <methods>
+          <include name="he_enters_product_name_in_search_bar_from_and"/>
+          <include name="the_user_is_in_the_homepage"/>
+        </methods>
+      </class> <!-- stepDefination.Tc1_ValidSearchProduct -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
